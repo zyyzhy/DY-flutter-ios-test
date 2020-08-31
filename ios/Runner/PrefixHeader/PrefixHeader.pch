@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  youmaiyun
+//
+//  Created by 大头科技 on 2019/7/19.
+//  Copyright © 2019年 datou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+/** 头文件引用 */
+#import "ColorsHeader.h"
+#import "MacrosHeader.h"
+#import "APIHeader.h"
+#import "AppKeyHeader.h"
+/** 扩展类 */
+#import "UIColor+Hex.h"
+/** 自定义工具 */
+#import "FlutterMethodChannelPlagin.h"
+#import "FlutterEventChannelPlugin.h"
+#import "SecondEventChannelPlugin.h"
+/** pod工具 */
+//#import <MJRefresh.h>
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
